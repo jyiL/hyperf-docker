@@ -1,5 +1,7 @@
 # Supported tags and respective Dockerfile links
 
+[![Build Status](https://travis-ci.com/hyperf/hyperf-docker.svg?branch=master)](https://travis-ci.com/hyperf/hyperf-docker)
+
 tag format:
 
 - 7.2: php version, support 7.2/7.3/7.4
