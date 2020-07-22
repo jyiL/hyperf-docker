@@ -1,5 +1,7 @@
 language: bash
 
+os: linux
+
 sudo: required
 
 env: SW_VERSION="4.5.2"
