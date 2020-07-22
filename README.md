@@ -32,16 +32,16 @@ Added [Dockerfile](https://github.com/hyperf-cloud/hyperf-docker/blob/master/Doc
 
 ```bash
 # Build base image
-./build base
+./build.sh base
 
 # Build swoole image
-./build cli 4.5.2
+./build.sh cli 4.5.2
 
 # Check images
-./build publish 4.5.2 --check
+./build.sh publish 4.5.2 --check
 
 # Push images to docker.io
-./build publish 4.5.2
+./build.sh publish 4.5.2
 ```
 
 # more demo

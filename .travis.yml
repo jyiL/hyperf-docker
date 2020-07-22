@@ -7,6 +7,6 @@ services:
 
 script:
   - cd $TRAVIS_BUILD_DIR
-  - ./build base
-  - ./build cli 4.5.2
-  - ./build publish 4.5.2 --check
+  - ./build.sh base
+  - ./build.sh cli 4.5.2
+  - ./build.sh publish 4.5.2 --check
