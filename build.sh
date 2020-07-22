@@ -3,7 +3,7 @@
 set -e
 
 # source environment variables for the time being.
-source ./.env
+# source ./.env
 
 # determine swoole version to build.
 TASK=${1}
