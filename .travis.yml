@@ -2,11 +2,13 @@ language: bash
 
 sudo: required
 
+env: SW_VERSION="4.5.2"
+
 services:
   - docker
 
 script:
   - cd $TRAVIS_BUILD_DIR
   - ./build.sh base
-  - ./build.sh cli 4.5.2
-  - ./build.sh publish 4.5.2 --check
+  - ./build.sh cli ${SW_VERSION}
+  - ./build.sh publish ${SW_VERSION} --check
